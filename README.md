@@ -1,0 +1,89 @@
+# Practice project based on Spring Boot framework
+
+> The app is a practice project to learn more about Spring boot framework.
+
+<div align="center">
+  <img src="screenshots/02_multiple.jpg?raw=true" width="100%" height="auto"/>
+  <img src="screenshots/01_iphone.jpg?raw=true" width="45%" height="auto"/>
+  <img src="screenshots/04_tablet.jpg?raw=true" width="45%" height="auto"/>
+  <img src="screenshots/03_samsung.jpg?raw=true" width="45%" height="auto"/>
+</div>
+
+## Features
+- A user can sign up and log in using his email and password.
+- A user can add his measurements
+- A user can track his progress on the app monthly or daily through the track.it or progress pages.
+- A user can compare their actual progress against planned one to acheive desired score.
+- A user can see a summary of his measurements.
+
+## Built With
+
+- [React.js](https://reactjs.org/)
+- [Redux](https://redux.js.org/)/[React-Redux pkg](https://react-redux.js.org/)
+- [Ruby on Rails](https://rubyonrails.org/)
+- [JSON Web Tokens (JWT)](https://jwt.io/)
+- [RSpec](https://rspec.info/)
+- [react-charts](https://www.npmjs.com/package/react-charts)
+- [npm](https://www.npmjs.com/)
+- [ES6](https://www.ecma-international.org/)
+- [JavaScript](https://www.javascript.com/)
+- [JEST](https://jestjs.io/)
+- [React Testing Library](https://github.com/testing-library/react-testing-library)
+- [HTML](https://html.spec.whatwg.org/)/[CSS](https://www.w3.org/TR/CSS/#css)
+
+## Live Demo
+
+[Live Demo Link](https://ielts-planner.netlify.app/)
+
+### Test Account:
+email: brad@mail.com
+password: brad
+
+## Testing with Jest & React Testing Library
+
+<div align="center">
+  <img src="screenshots/test.png?raw=true" width="70%" height="auto"/>
+</div>
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Setup
+    Step 1: git clone https://github.com/SarvarKh/ielts_planner.git
+    
+    Step 2 - navigate to the cloned directory:
+    cd ielts_planner
+
+    Step 3 - install npm pckage manager:
+    npm install
+
+    Step 4 - open the app in development mode:
+    npm start
+Last step will open http://localhost:3000 to view it in the browser.
+
+### Run tests
+- Go to your terminal
+- Run npm test to run all the tests.
+
+## Authors
+
+👤 **Sarvar Khalimov**
+
+- GitHub: [@SarvarKh](https://github.com/SarvarKh)
+- Twitter: [@KhalimovSarvar](https://twitter.com/KhalimovSarvar)
+- LinkedIn: [@sarvar-khalimov](https://www.linkedin.com/in/sarvar-khalimov)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/SarvarKh/ielts_planner/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
