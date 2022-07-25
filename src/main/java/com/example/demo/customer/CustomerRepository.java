@@ -1,12 +1,12 @@
 package com.example.demo.customer;
 
 import org.springframework.context.annotation.Primary;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import java.util.Collections;
 import java.util.List;
 
-@Component // Bean of CustomerRepo interface
+@Repository // Bean of CustomerRepo interface
 @Primary
 public class CustomerRepository implements CustomerRepo {
     @Override
