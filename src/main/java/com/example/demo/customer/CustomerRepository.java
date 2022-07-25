@@ -6,8 +6,9 @@ import org.springframework.stereotype.Repository;
 import java.util.Collections;
 import java.util.List;
 
-@Repository // Bean of CustomerRepo interface
-@Primary
+//@Repository // Bean of CustomerRepo interface
+// => is removed because we are instantiating CustomerRepository class in configuration file.
+//@Primary is removed because CustomerRepo bean was added & it is being done via configuration now.
 public class CustomerRepository implements CustomerRepo {
     @Override
     public List<Customer> getCustomers() {

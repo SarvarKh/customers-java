@@ -5,7 +5,8 @@ import org.springframework.stereotype.Repository;
 import java.util.Arrays;
 import java.util.List;
 
-@Repository(value = "fake") // Bean of CustomerRepo interface
+//@Repository(value = "fake") // Bean of CustomerRepo interface
+// => is removed because we are instantiating CustomerFakeRepository class in configuration file
 public class CustomerFakeRepository implements CustomerRepo {
     @Override
     public List<Customer> getCustomers() {
