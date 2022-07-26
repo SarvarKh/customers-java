@@ -1,5 +1,6 @@
 package com.example.demo.customer;
 
+import com.example.demo.exception.ApiRequestException;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -23,6 +24,11 @@ public class CustomerControllerV2 {
     @GetMapping(path = "{customerId}")
     Customer getCustomer(@PathVariable("customerId") Long id) {
         return customerService.getCustomer(id);
+    }
+
+    @GetMapping(path = "{customerId}/exception")
+    Customer getCustomerException(@PathVariable("customerId") Long id) {
+        throw new ApiRequestException("ApiRequestException for customer " + id);
     }
 
     @PostMapping
