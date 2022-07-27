@@ -1,17 +1,9 @@
 package com.example.demo.customer;
 
-import java.util.Collections;
-import java.util.List;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-//@Repository // Bean of CustomerRepo interface
-// => is removed because we are instantiating CustomerRepository class in configuration file.
-//@Primary is removed because CustomerRepo bean was added & it is being done via configuration now.
-public class CustomerRepository implements CustomerRepo {
-    @Override
-    public List<Customer> getCustomers() {
-//        TODO Connect to real DB
-        return Collections.singletonList(
-                new Customer(1L, "TODO. Implement real DB ", "todo", "email@gmail.com")
-        );
-    }
+@Repository
+public interface CustomerRepository extends JpaRepository<Customer, Long> {
+
 }
