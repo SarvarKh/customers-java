@@ -5,7 +5,7 @@
 
 ## Project Diagram
 <div align="center">
-  <img src="screenshots/diagram.png?raw=true" width="100%" height="auto" style="border-style: solid"/>
+  <img src="screenshots/diagram.png?raw=true" width="65%" height="auto" style="border-style: solid"/>
 </div>
 
 ## Built With
